@@ -1,0 +1,104 @@
+/*-----------------RESPONSIVE-----------------*/
+
+@media (max-width: 1024px){
+    .container__header, main{
+        padding: 20px;
+    }
+
+    #icon_menu{
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .header__register{
+        display:none;
+    }
+
+    .menu{
+        height: 0px;
+        position: absolute;
+        right: 20px;
+        top: 70px;
+        overflow: hidden;
+        z-index: 10;
+        box-shadow: 0px 0px 30px -20px rgba(0,0,0,0.5);
+        transition: all 500ms;
+    }
+
+    .menu nav ul{
+        padding: 20px 0px;
+        flex-direction: column;
+        background: white;
+    }
+
+    .menu nav ul li{
+        padding: 10px 40px;
+    }
+
+    .mostrar_menu{ /*Clase manipulada por JS*/
+        height: 235px;
+    }
+
+    .text__information-cover h1{
+        font-size: 40px;
+    }
+
+    .text__information-cover p{
+        font-size: 16px;
+    }
+
+    .banner__text h2{
+        font-size: 20px;
+    }
+
+    #icon_pc{
+        width: 400px;
+        margin-top: 0px;
+    }
+
+    #icon_shield{
+        left: -30px;
+        width: 320px;
+        margin-top: -42px;
+        
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .cover{
+        margin-top: -30px;
+    }
+}
+
+
+/*Eliminamos elementos precindibles al achicar*/
+@media (max-width: 920px){
+    .text__information-cover{
+        width: 100%;
+    }
+
+    .media__cover{
+        display: none;
+    }
+
+    .banner{
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    #icon_shield{
+        left: 0%;
+        width: 80px;
+        filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.1));
+        margin-top: -30px;
+        
+    }
+
+    .banner__text{
+        width: 100%;
+        margin-top: -20px;
+    }
+}

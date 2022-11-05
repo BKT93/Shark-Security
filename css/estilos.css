@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(248, 248, 248);   
+}
+
+hr{
+    width: 75%;
+    margin: auto;
+}
+
+header{
+    height: 70px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%);
+}
+
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+    margin-top: 12px;
+    margin-left: -30px;
+}
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.menu nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    transition: opacity 300ms;
+}
+
+.menu nav ul li a:hover{
+    opacity: 0.6;
+}
+
+.btn__header-register,
+.btn__register-cover{
+    padding: 14px 50px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+.btn__header-register:hover,
+.btn__register-cover:hover{
+    background: #69F1A1;
+    color: black;
+}
+
+#icon_menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------PORTADA - COVER-----------*/
+
+main{
+    max-width: 1200px;
+    padding: 40px;
+    margin: auto;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.text__information-cover{
+    width: 50%;
+    margin-top: 60px;
+}
+
+.text__information-cover h2{
+    padding: 20px 0px;
+    letter-spacing: 5px;
+    
+}
+
+.text__information-cover h1{
+    font-size: 60px;
+}
+
+.text__information-cover p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.buttons__cover{
+    display: flex;
+    margin-top: 40px;
+}
+
+.btn__readmore-cover{
+    padding: 14px 40px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 300ms;
+}
+
+.btn__readmore-cover:hover{
+    background: #E8E8E8;
+}
+
+
+
+.media__cover{
+    width: 50%;
+}
+
+.media__cover img{
+    width: 100%;
+    margin-top: -40px;
+    transform: scaleX(-1); /*Volteamos horizontalmente*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  -----------BANNER-----------  */
+
+.container__banner{
+    margin-top: 80px;
+}
+
+.banner{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background: #121214;
+    position: relative;
+}
+
+.banner__icon-shield{
+    width: 35%;
+    height: 100%;
+}
+
+#icon_shield{
+    width: 350px;
+    margin: -20px;
+    margin-left: 20px;
+    margin-top: -60px;
+    position: relative;
+    filter: drop-shadow(-40px 0px 20px rgba(0,0,0,0.3))
+}
+
+.banner__text{
+    width: 60%;
+    position: relative;
+    padding: 40px;
+}
+
+.banner__text h2{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.banner__text a{
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 300ms;
+}
+
+.banner__text a:hover{
+    color: #69F1A1;
+}
+
+hr{
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------INFORMACION---------*/
+
+
+.global__text-information h2{
+    font-size: 40px;
+    color: #000000;
+    
+    
+    
+}
+
+.global__text-information p{
+    font-size: 18px;
+    text-align: justify;
+    color: #777575;
+    line-height: 1.65em;
+    
+}
+
+/* CONTAINER 1 */
+
+.container__1{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    margin-top: 50px;  
+}
+
+.digital-security-text h2{
+    margin-bottom: 20px;
+}
+
+
+.digital-security-media{
+    width: 50%;
+}
+
+#security-icon{
+    width: 400px;
+    margin-left: 60px;
+    filter: drop-shadow(5px 0px 10px rgba(0,0,0,0.2));
+    margin-top: 15%;
+    
+}
+
+/* CONTAINER 2*/
+
+.container__2{
+    width: 75%;
+    margin: 40px auto ; /* Margen 40px vertical - automatico horizontal*/
+}
+
+
+.importancia-security-text h2{
+    margin-bottom: 20px;
+}
+
+
+
+
+/* CONTAINER 3*/
+.tipos-de-ataques{
+    margin: 0px auto;
+    width: 75%;
+}
+
+.tipos-de-ataques__information{
+    
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
