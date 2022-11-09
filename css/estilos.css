@@ -309,9 +309,6 @@ hr{
     margin-bottom: 20px;
 }
 
-
-
-
 /* CONTAINER 3*/
 .tipos-de-ataques{
     margin: 0px auto;
@@ -324,6 +321,15 @@ hr{
     margin-top: 20px;
 }
 
+/*container 4*/
+.container__4{
+    width: 75%;
+    margin: 40px auto ;  
+}
+
+.basicos-sd{
+    width: 50%;
+}
 
 
 
