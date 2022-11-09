@@ -86,7 +86,14 @@ header{
     display: none;
 }
 
+/*Linea para que el menu se mantenga al cambiar de seccion*/
+html {
+    scroll-behavior: smooth;
+}
 
+article[id]{
+    scroll-margin-top: 70px;
+}
 
 
 
