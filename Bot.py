@@ -30,7 +30,7 @@ def CheckearMensaje(entrada):
     probabilidad_mas_alta.append(ProbabilidadDelMensaje(entrada, ["la", "su", "extension", "servicio", "es", "gratis", "gratuito", "este", "100%", "ciento"]))
 
     posible_respuesta.append("jajaja")
-    probabilidad_mas_alta.append(ProbabilidadDelMensaje(entrada, ["que", "insistente", "cuanta", "insistencia", "pesado", "jajaja", "molesto"]))
+    probabilidad_mas_alta.append(ProbabilidadDelMensaje(entrada, ["que", "insistente", "cuanta", "insistencia", "pesado","molesto", "jajaja", "jaja", "ja"]))
 
 
     # Acá se preguntan cuestiones tecnicas
