@@ -93,10 +93,16 @@ html {
 
 article[id]{
     scroll-margin-top: 70px;
+
 }
 
+h3{
+  margin-top: 4ex;
+}
 
-
+h2{
+    margin-top: 2ex;
+}
 
 
 
@@ -170,8 +176,12 @@ main{
 }
 
 
-
-
+img{
+    margin-top: 3ex;
+}
+p{
+    margin-top: 1ex;
+}
 
 
 
@@ -187,6 +197,7 @@ main{
 }
 
 .banner{
+    margin-top: 5ex;
     height: 250px;
     display: flex;
     align-items: center;
@@ -237,11 +248,6 @@ main{
 hr{
     margin-top: 80px;
 }
-
-
-
-
-
 
 
 
@@ -327,9 +333,27 @@ hr{
     margin: 40px auto ;  
 }
 
-.basicos-sd{
-    width: 50%;
+
+.recursos-basicos-sd{
+    justify-content: space-between;
+    margin-top: 30px;
 }
+
+
+
+
+.banner2{
+    margin-top: 5ex;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background: #7bcff7;
+    position: relative;
+    border-radius: 2ex;
+}
+
+
+
 
 
 
